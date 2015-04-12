@@ -1081,7 +1081,7 @@ th {
           box-sizing: border-box;
 }
 html {
-  font-size: 10px;
+  font-size: 16px;
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -6585,15 +6585,15 @@ button.close {
 
 /*=============== CUSTOM CSS =====*/
 body{
-background-image: url(img/droplet-bkg.00_png_srz);
-background-attachment: scroll;
-background-color: rgb(253, 77, 94);
-background-size: auto;
-background-position: 50% 0%;
-background-repeat: repeat;
+  background-image: url(../img/droplet-bkg.png);
+  background-attachment: scroll;
+  background-color: rgb(253, 77, 94);
+  background-size: auto;
+  background-position: 50% 0%;
+  background-repeat: repeat;
 }
 
-h1{font-family: 'Chelsea Market', cursive;}
+h1{font-family: 'Chelsea Market', cursive; color:rgb(39, 168, 199); font-size:3.4rem;}
 h2{}
 h3{}
 h4{}
@@ -6602,12 +6602,33 @@ a{}
 b{}
 i{}
 
+.container{background-color:#fff;}
+.no-mobile{display:block;}
+
 /*----------- Header -------------*/
 #main-header{height:80px;}
 
 
 /* --Main nav-- */
 #main-menu-wrapper{}
-  .nav{}
-    .nav li{}
-      .nav li a{}
+  .nav{
+    
+  }
+    
+    .nav li{
+      width:25%; 
+      display:inline-table;}
+      
+      .nav li a{
+          color:rgb(39, 168, 199);
+          font-family: 'Chelsea Market', cursive;
+          list-style-type: none;
+
+      }
+
+/*=================== RESPONSIVE ELEMENTS =============*/
+
+/*----Mobile ----- */
+@media (max-device-width: 480px) {
+  .no-mobile{dispaly:none;}
+}
