@@ -6582,3 +6582,25 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/*=============== CUSTOM CSS =====*/
+body{
+
+background-image: url(img/droplet-bkg.00_png_srz);
+background-attachment: scroll;
+background-color: rgb(253, 77, 94);
+background-size: auto;
+background-position: 50% 0%;
+background-repeat: repeat;
+}
+
+h1{font-family: 'Chelsea Market', cursive;}
+h2{}
+h3{}
+h4{}
+p{}
+a{}
+b{}
+i{}
+
+/*----------- Header -------------*/
