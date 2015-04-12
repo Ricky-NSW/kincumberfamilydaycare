@@ -6083,6 +6083,7 @@ button.close {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   line-height: 1;
+  width:100%;
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
@@ -6593,11 +6594,11 @@ body{
   background-repeat: repeat;
 }
 
-h1{font-family: 'Chelsea Market', cursive; color:rgb(39, 168, 199); font-size:3.4rem;}
-h2{}
-h3{}
-h4{}
-p{}
+h1{font-family: 'Chelsea Market', cursive; color:rgb(39, 168, 199); font-size:2.2rem;}
+h2{font-family: 'Chelsea Market', cursive; color:rgb(39, 168, 199); font-size:2.2rem;}
+h3{font-family: 'Chelsea Market', cursive; color:rgb(39, 168, 199); font-size:2.2rem;}
+h4{font-family: 'Chelsea Market', cursive; color:#000; font-size:2rem;}
+p{color:rgb(151, 17, 163); font-size:1.1rem;}
 a{}
 b{}
 i{}
@@ -6605,8 +6606,17 @@ i{}
 .container{background-color:#fff;}
 .no-mobile{display:block;}
 
+.line-break{
+  border-bottom: 2px solid rgb(237, 151, 73);
+  height: 0px;
+  min-height: 0px;
+  margin: 30px 0;
+}
+
+.3margin{margin:3rem inherit;}
+.p-relateive{position:relative;}
 /*----------- Header -------------*/
-#main-header{height:80px;}
+#main-header{}
 
 
 /* --Main nav-- */
@@ -6625,6 +6635,36 @@ i{}
           list-style-type: none;
 
       }
+
+/*--Text banner */
+#text-banner{
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
+  border: 3px solid rgb(89, 199, 224);
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  position: absolute;
+  top: 80px;
+  right: -10px;
+  z-index: 900;
+}
+
+/*---Carousel */
+
+#header-carousel{z-index: 100;}
+
+/*----- main content ------*/
+.content-thumb{width:100%; height:150px; border: 6px solid rgb(237, 151, 73); overflow:hidden; display:block; }
+.content-carousel{}
+.google-map{margin:1rem;}
+#hours-home{}
+  #hours-home h2{}
+  #hours-home p{font-size:2rem; line-height: 2.8em; color:#9711a3;}
+  
+
 
 /*=================== RESPONSIVE ELEMENTS =============*/
 
