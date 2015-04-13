@@ -1589,12 +1589,12 @@ pre code {
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 850px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1000px;
   }
 }
 .container-fluid {
@@ -6636,6 +6636,8 @@ i{}
 
       }
 
+      .nav li a:hover, .nav li .active{color: rgb(151, 17, 163);}
+
 /*--Text banner */
 #text-banner{
   background-color: rgb(255, 255, 255);
@@ -6649,12 +6651,15 @@ i{}
   position: absolute;
   top: 80px;
   right: -10px;
+  text-align: center;
   z-index: 900;
 }
+  #text-banner h1{line-height: 1.4em;}
+  #text-banner a:hover{text-decoration:none;}
 
 /*---Carousel */
 
-#header-carousel{z-index: 100;}
+#header-carousel{z-index: 100; margin: 0 -15px;}
 
 /*----- main content ------*/
 .content-thumb{width:100%; height:150px; border: 6px solid rgb(237, 151, 73); overflow:hidden; display:block; }
@@ -6668,7 +6673,39 @@ i{}
 
 /*=================== RESPONSIVE ELEMENTS =============*/
 
+
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 850px;
+  }
+}
+
+@media (min-width: 768px) {
+  
+}
+
+/* ----Tablet down---- */
+
+
 /*----Mobile ----- */
 @media (max-device-width: 480px) {
-  .no-mobile{dispaly:none;}
+  .no-mobile{display:none;}
+  /*--Text banner */
+  #text-banner{
+    position: inherit;
+    top: 80px;
+    right: 0px;
+    left:0px;
+    display:block;
+    width:100%;
+    margin-bottom: 15px;
+    }
+      #text-banner h1{font-size: 1.5rem;}
 }
