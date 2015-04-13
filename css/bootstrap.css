@@ -1589,7 +1589,7 @@ pre code {
 }
 @media (min-width: 992px) {
   .container {
-    width: 850px;
+    width: 980px;
   }
 }
 @media (min-width: 1200px) {
@@ -6596,7 +6596,7 @@ body{
 
 h1{font-family: 'Chelsea Market', cursive; color:rgb(39, 168, 199); font-size:2.2rem;}
 h2{font-family: 'Chelsea Market', cursive; color:rgb(39, 168, 199); font-size:2.2rem;}
-h3{font-family: 'Chelsea Market', cursive; color:rgb(39, 168, 199); font-size:2.2rem;}
+h3{font-family: 'Chelsea Market', cursive; color:rgb(39, 168, 199); font-size:1.8rem;}
 h4{font-family: 'Chelsea Market', cursive; color:#000; font-size:2rem;}
 p{color:rgb(151, 17, 163); font-size:1.1rem;}
 a{}
@@ -6677,15 +6677,11 @@ i{}
 
 
 @media (min-width: 1200px) {
-  .container {
-    width: 1000px;
-  }
+
 }
 
 @media (min-width: 992px) {
-  .container {
-    width: 980px;
-  }
+
 }
 
 @media (min-width: 768px) {
