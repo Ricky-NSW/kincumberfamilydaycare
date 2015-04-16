@@ -6614,7 +6614,8 @@ i{}
 }
 
 .3margin{margin:3rem inherit;}
-.p-relateive{position:relative;}
+.pos-relative{position:relative;}
+.full-width{width:100%;}
 /*----------- Header -------------*/
 #main-header{}
 
@@ -6654,7 +6655,7 @@ i{}
   text-align: center;
   z-index: 900;
 }
-  #text-banner h1{line-height: 1.4em;}
+  #text-banner h1{line-height: 1.4em; letter-spacing: -3px;}
   #text-banner a:hover{text-decoration:none;}
 
 /*---Carousel */
@@ -6662,13 +6663,26 @@ i{}
 #header-carousel{z-index: 100; margin: 0 -15px;}
 
 /*----- main content ------*/
-.content-thumb{width:100%; border: 6px solid rgb(237, 151, 73); overflow:hidden; display:block; margin-bottom: 30px;}
+.content-thumb{ border: 6px solid rgb(237, 151, 73); overflow:hidden; display:block; margin-bottom: 30px;}
 .content-thumb img{float:left;width:100%;}
 .content-carousel{}
-.google-map{margin:1rem;}
+.google-map{}
 #hours-home{}
   #hours-home h2{}
-  #hours-home p{font-size:2rem; color:#9711a3;}
+  #hours-home p{font-size:2rem; color:#9711a3;line-height: 5rem;}
+
+  /*----- FOOTER -----*/
+
+  .footer{
+    background-color: rgb(195, 235, 244); 
+
+    margin:1rem auto;
+    padding-top:1.5rem;
+  }
+  .footer h1{color:#da7d29; font-size:1.4rem; margin-top:0;}
+  .footer p{color:#646464;  margin: 0 0 5px;font-size:.9em;}
+  .footer img{opacity:.7;}
+    .footer img:hover{opacity:1;}
   
 
 
@@ -6688,13 +6702,16 @@ i{}
   
 }
 
+
 /* ----Tablet down---- */
 
 
-/*----Mobile ----- */
-@media (max-device-width: 480px) {
+/* ----Mobile ----- */
+
+@media (max-width: 480px){
+
   .no-mobile{display:none;}
-  /*--Text banner */
+
   #text-banner{
     position: inherit;
     top: 80px;
@@ -6705,4 +6722,6 @@ i{}
     margin-bottom: 15px;
     }
       #text-banner h1{font-size: 1.5rem;}
+      #hours-home p{line-height: inherit;}
+
 }
