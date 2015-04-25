@@ -6709,9 +6709,8 @@ i{}
   float: left;
   margin: 1rem;
   width: 29%; 
-}
-  #internal-carousel > a.right.carousel-control, #internal-carousel > a.left.carousel-control {  background: none;
-}
+  }
+  #internal-carousel > a.right.carousel-control, #internal-carousel > a.left.carousel-control {  background: none;}
 
 
   /*----- FOOTER -----*/
@@ -6748,19 +6747,25 @@ i{}
 
 @media (min-width: 768px) {
   
+  
 }
 
 
-/* ----Tablet down---- */
+@media (max-width: 580px) {
+    .nav > li {width:23%; float:none;}
+     .nav > li > a {margin: 15px 10px;}
 
+}
 
 /* ----Mobile ----- */
 
 @media (max-width: 480px){
 
   .no-mobile{display:none;}
-  .menu-spacer{display:none;
+  .menu-spacer{display:none;}
 
+.nav > li {width:23%; float:none;}
+     .nav > li > a {margin: 15px auto;}
 
   #text-banner{
     position: inherit;
@@ -6771,7 +6776,7 @@ i{}
     width:100%;
     margin-bottom: 15px;
     }
-      #text-banner h1{font-size: 1.5rem;}
+      #text-banner h1{font-size: 1.8rem;}
       #hours-home p{line-height: inherit;}
 
 }
