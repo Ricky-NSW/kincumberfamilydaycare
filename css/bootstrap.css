@@ -6691,7 +6691,7 @@ i{}
 
 /*----- main content ------*/
 .main{padding-top:15px;}
-.main > img{
+.main img{
   padding: 0;
   border: 6px solid rgb(237, 151, 73);
   margin: 0 10px 10px 0;}
@@ -6711,6 +6711,13 @@ i{}
   width: 29%; 
   }
   #internal-carousel > a.right.carousel-control, #internal-carousel > a.left.carousel-control {  background: none;}
+
+  /*----- about page -----*/
+  .testimonial{padding:10px; background-color:#da7d29; color:#fff;}
+  .testimonial:after{}
+    .testimonial p{color:#fff; font-size: 1rem;}
+  }
+  .quote{color:#da7d29; margin-left:10px;}
 
 
   /*----- FOOTER -----*/
