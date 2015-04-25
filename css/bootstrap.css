@@ -6723,10 +6723,11 @@ i{}
     padding-top:1.5rem;
   }
   .footer h1{color:#da7d29; font-size:1.4rem; margin-top:0;}
-    .footer > h1 > a{color:#da7d29;}
+
  
   .footer p{color:#646464;  margin: 0 0 5px;font-size:.9em;}
   .footer a{color:#646464;}  
+      .footer h1 > a{color:#da7d29;}
   .footer img{opacity:.7;}
     .footer img:hover{opacity:1;}
   
