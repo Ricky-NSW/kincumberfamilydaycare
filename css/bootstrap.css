@@ -6750,21 +6750,34 @@ i{}
   
 }
 
-
+/*---portrait tablet and down*/
 @media (max-width: 580px) {
     .nav > li {width:23%; float:none;}
      .nav > li > a {margin: 15px 10px;}
 
-}
 
-/* ----Mobile ----- */
+h1{font-size:1.8rem;}
+h2{font-size:1.4rem;}
+h3{font-size:1.3rem;}
+#internal-carousel > .carousel-inner > .item > img, #internal-carousel > .carousel-inner > .item > a > img {  margin: .2rem;}
+    /*---homepage content*/
+    .content-thumb {
+      width: 46%;
+      float: left;
+      margin: .3rem;
+
+    }
+    #hours-home p {  font-size: 1.5rem;}
+
+/* --------------Mobile -------------- */
 
 @media (max-width: 480px){
 
   .no-mobile{display:none;}
   .menu-spacer{display:none;}
 
-.nav > li {width:23%; float:none;}
+
+.nav > li {width:20%; float:none;}
      .nav > li > a {margin: 15px auto;}
 
   #text-banner{
