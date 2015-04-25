@@ -56,7 +56,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
-  color:#000;
+
 }
 dfn {
   font-style: italic;
@@ -6602,7 +6602,7 @@ body{
 }
 
 h1{font-family: 'Chelsea Market', cursive; color:rgb(39, 168, 199); font-size:2.2rem;}
-h2{font-family: 'Chelsea Market', cursive; color:rgb(39, 168, 199); font-size:2.2rem;}
+h2{font-family: 'Chelsea Market', cursive; color:#da7d29; font-size:1.4rem;}
 h3{font-family: 'Chelsea Market', cursive; color:rgb(39, 168, 199); font-size:1.8rem;}
 h4{font-family: 'Chelsea Market', cursive; color:#000; font-size:2rem;}
 p{color:rgb(151, 17, 163); font-size:1.1rem;}
@@ -6727,7 +6727,7 @@ i{}
  
   .footer p{color:#646464;  margin: 0 0 5px;font-size:.9em;}
   .footer a{color:#646464;}  
-      .footer h1 > a{color:#da7d29;}
+      .footer h1 > a{color:#da7d29;}  
   .footer img{opacity:.7;}
     .footer img:hover{opacity:1;}
   
