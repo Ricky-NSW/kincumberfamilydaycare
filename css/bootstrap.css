@@ -6689,6 +6689,7 @@ i{}
   border-image-outset: initial;
   border-image-repeat: initial;
   position: absolute;
+    padding: 0 20px;
   top: 60px;
   right: -10px;
   text-align: center;
@@ -6772,15 +6773,16 @@ i{}
 
 /*---portrait tablet and down*/
 @media (max-width: 580px) {
-    .nav > li {width:100%; float:none;}
-     .nav > li > a {margin: 10px 10px; border:none;}
+    .nav > li {width:24%; float:none;}
+     .nav > li > a {margin: 20px 10px; border:none;}
 
 
-h1{font-size:1.6rem;}
+h1{font-size:1.8rem;}
 h2{font-size:1.4rem;}
 h3{font-size:1.3rem;}
 #internal-carousel > .carousel-inner > .item > img, #internal-carousel > .carousel-inner > .item > a > img {  margin: .2rem;}
     /*---homepage content*/
+    #text-banner{padding:0px;  top: 73px;}
     .content-thumb {
       width: 44%;
       float: left;
@@ -6796,6 +6798,7 @@ h3{font-size:1.3rem;}
 /* --------------Mobile -------------- */
 
 @media (max-width: 480px){
+  h1{font-size:1.6rem;}
 
   .no-mobile{display:none;}
   .menu-spacer{display:none;}
